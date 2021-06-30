@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name= "keywords" content= "Exercise, Gym, fitness"/>
+  <link rel="stylesheet" href="styles.css">
+    <title>Fit for Fun Fitness Club</title>
+  </head>
+  <body>
+    <header>
+        <a href="index.html"><img src="egg1.jpg" alt="business logo"/></a>
+        <nav>
+          <ul style="list-style-type:none;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="info.html">Info</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1>Class Sign Up Request</h1>
+    <div class="container">
+      <form method="get" action="thankyou-1.html">
+        <fieldset>
+          <legend>
+            Contact Information
+          </legend>
+
+          <label for="fname">
+            Name:
+            <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+          </label>
+
+          <label for="lname">
+            Last Name:
+            <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+          </label>
+
+          <label for="email">
+            Email:
+            <input type="email" name="email" id="email" required placeholder="Email" />
+          </label>
+          <label for="Number">
+            Number:
+            <input type="tel" name="Number" id="Number" required placeholder="Phone" />
+          </label>
+        </fieldset><br>
+
+        <fieldset>
+          <legend>
+            How should we contact you?
+          </legend>
+          <select name="Method of contact" id="method">
+            <option value="Email">Email</option>
+            <option value="Phone">Phone</option>
+            <option value="Carrier Pigeon">Carrier Pigeon</option>
+            <option value="Mysterious cloaked man makes contact with you on a dark, rainy night when you least expect it">Mysterious cloaked man makes contact with you on a dark, rainy night when you least expect it</option>
+          </select>
+          <select name="month" id="selectmonth">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+          <label>
+            <input name="dayspin" id="dayspin" type="number" value="1" step="1" min="1" max="31" />
+          </label>
+          <label>
+            <input id="AM" type="radio" name="AM/PM">AM</label>
+          <label>
+            <input id="PM" type="radio" name="AM/PM">PM</label>
+        </fieldset><br>
+
+        <fieldset>
+          <legend>
+            Classes that you are interested in
+          </legend>
+            <label for="MixxedFIT">
+              <input id="MixxedFIT" type="checkbox" name="MixxedFIT">MixxedFIT
+            </label>
+            <label for="Zumba">
+              <input id="Zumba" type="checkbox" name="Zumba">Zumba
+            </label>
+            <label for="ACT">
+              <input id="ACT" type="checkbox" name="ACT">Advance Cross Training
+            </label>
+            <label for="StepInterval">
+              <input id="StepInterval" type="checkbox" name="StepInterval">Step Interval
+            </label>
+            <label for="BodyPump">
+              <input id="BodyPump" type="checkbox" name="BodyPump">Body Pump
+            </label>
+            <label for="BodyCombat">
+              <input id="BodyCombat" type="checkbox" name="BodyCombat">Body Combat
+            </label>
+            <label for="Spin">
+              <input id="Spin" type="checkbox" name="Spin">Spin
+            </label>
+            <label for="Sprint">
+              <input id="Sprint" type="checkbox" name="Sprint">Sprint
+            </label>
+            <label for="CrossTraining">
+              <input id="CrossTraining" type="checkbox" name="CrossTraining">Cross Training
+            </label>
+            <label for="SeaGull">
+              <input id="SeaGull" type="checkbox" name="SeaGull">Catching seagulls at the beach and domesticating them
+            </label>
+        </fieldset><br>
+        <fieldset>
+          <legend>
+            Additional Information
+          </legend>
+          <textarea name="Additional Information"></textarea>
+
+        </fieldset><br>
+
+            <!-- <a href="thankyou-1.html">Submit</a> -->
+
+          <input class="submit" type="Submit" Value="Submit" /><br>
+
+      </form><br>
+    </div>
+
+    <footer>
+      Fit for Fun Fitness &#169; 2021
+    </footer>
+  </body>
+</html>
